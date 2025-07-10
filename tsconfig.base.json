@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": "${configDir}",
+    "outDir": "${configDir}/dist",
+    "rootDirs": ["${configDir}/src", "${configDir}/test"],
+    "rootDir": "${configDir}/src",
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "module": "EsNext",
+    "target": "ESNext",
+    "sourceMap": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "useDefineForClassFields": true,
+    "verbatimModuleSyntax": true,
+    "strict": true,
+    "typeRoots": [
+      "${configDir}/src/types",
+      "${configDir}/test/types",
+      "${configDir}/node_modules/@types",
+      "${configDir}/node_modules/@rtvision/types/dist"
+    ]
+  },
+  "include": [
+    "${configDir}/src/**/*",
+    "${configDir}/test/**/*",
+    "${configDir}/*.ts",
+    "${configDir}/*.cts",
+    "${configDir}/*.mts",
+    "${configDir}/*.cjs",
+    "${configDir}/*.mjs"
+  ]
+}
