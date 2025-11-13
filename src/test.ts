@@ -1,4 +1,2 @@
-export class Test {
-	functionOne(foo: string, bar: number): void {}
-	functionTwo(...args: Parameters<typeof this.functionOne>): void {}
-}
+import foo from './foo.json' with { type: 'json' };
+export { foo };
