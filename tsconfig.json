@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "outDir": "./dist",
     "rootDir": "./src",
     "esModuleInterop": true,
@@ -9,9 +8,8 @@
     "module": "EsNext",
     "target": "ESNext",
     "sourceMap": true,
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
     "forceConsistentCasingInFileNames": true,
+    "declaration": true,
     "resolveJsonModule": true,
     "useDefineForClassFields": true,
     "verbatimModuleSyntax": true,
