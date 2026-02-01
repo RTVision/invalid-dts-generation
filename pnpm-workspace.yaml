@@ -1,0 +1,2 @@
+overrides:
+  rolldown-plugin-dts: link:../rolldown-plugin-dts

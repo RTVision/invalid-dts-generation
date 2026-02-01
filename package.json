@@ -11,12 +11,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.28.0",
   "devDependencies": {
     "drizzle-orm": "^0.45.1",
-    "tsdown": "^0.20.1",
-    "typescript": "^5.9.3",
-    "postgres": "^3.4.8"
+    "fastify": "^5.7.2",
+    "json-schema-to-ts": "^3.1.1",
+    "postgres": "^3.4.8",
+    "tsdown": "0.20.1",
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "@typescript/native-preview": "7.0.0-dev.20260131.1"
